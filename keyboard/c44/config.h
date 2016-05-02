@@ -23,8 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x4444
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    testeed
-#define PRODUCT         TODO
+#define MANUFACTURER    Max
+#define PRODUCT         RGB Split Planck
 #define DESCRIPTION     t.m.k. keyboard firmware for TODO
 
 /* key matrix size */
@@ -71,10 +71,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* disable print */
 //#define NO_PRINT
-#define ws2812_PORTREG  PORTE
-#define ws2812_DDRREG   DDRE
-#define ws2812_pin PE2
-#define RGBLED_NUM 8     // Number of LEDs
+#define ws2812_PORTREG  PORTD
+#define ws2812_DDRREG   DDRD
+#define ws2812_pin PD2
+#define RGBLED_NUM 12   // Number of LEDs
 #ifndef RGBLIGHT_HUE_STEP
 #define RGBLIGHT_HUE_STEP 10
 #endif
