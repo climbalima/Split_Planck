@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
            SHIFT(KC_GRV), SHIFT(KC_1) , SHIFT(KC_2), SHIFT(KC_3)   , SHIFT(KC_4), SHIFT(KC_5) ,  
            KC_TRNS      , KC_TRNS     , KC_TRNS    , KC_TRNS       , KC_TRNS    , KC_TRNS     , 
           KC_FN0,     KC_FN1,     KC_FN2,     KC_FN3,     KC_FN4,     KC_FN5,      
-           KC_FN6,     KC_FN7, KC_TRNS , KC_TRNS , KC_TRNS, KC_TRNS ,
+           KC_FN6, KC_TRNS , KC_FN7, KC_TRNS , KC_TRNS, KC_TRNS ,
         /* right hand */
            SHIFT(KC_6), SHIFT(KC_7)   , SHIFT(KC_8)   , SHIFT(KC_9)    , SHIFT(KC_0)  , KC_TRNS , 
            KC_TRNS    , SHIFT(KC_LBRC), SHIFT(KC_RBRC), SHIFT(KC_MINS) , SHIFT(KC_EQL) , SHIFT(KC_BSLS)  , 

@@ -15,7 +15,10 @@ SRC +=	$(COMMON_DIR)/host.c \
 	$(COMMON_DIR)/avr/timer.c \
 	$(COMMON_DIR)/avr/bootloader.c
 
-
+ifdef RGBLIGHT_ENABLE
+    SRC += $(COMMON_DIR)/avr/eeconfig.c
+    OPT_DEFS += -DRGBLIGHT_ENABLE
+endif
 # Option modules
 ifdef BOOTMAGIC_ENABLE
     SRC += $(COMMON_DIR)/bootmagic.c

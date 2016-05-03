@@ -2,6 +2,7 @@
 #include "keyboard.h"
 #include "wait.h"
 #include "c44-util.h"
+#include "rgblight.h"
 
 // slave version of matix scan, defined in matrix.c
 void matrix_slave_scan(void);
